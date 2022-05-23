@@ -4,6 +4,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{20
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShop.Web", "GeekShop.Web\GeekShop.Web.csproj", "{EB4F1602-40BD-455B-B530-7E857157A5E3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9F0E69C5-66E3-49F1-BF6C-491E400493F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShop.ProductApi", "GeekShop.ProductApi\GeekShop.ProductApi.csproj", "{D15E90E2-36C4-4002-B9FE-B75F8A21EB17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,11 +15,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EB4F1602-40BD-455B-B530-7E857157A5E3} = {20E544E9-F438-4E1E-9AB0-14C2D9948058}
+		{D15E90E2-36C4-4002-B9FE-B75F8A21EB17} = {9F0E69C5-66E3-49F1-BF6C-491E400493F4}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EB4F1602-40BD-455B-B530-7E857157A5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EB4F1602-40BD-455B-B530-7E857157A5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB4F1602-40BD-455B-B530-7E857157A5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB4F1602-40BD-455B-B530-7E857157A5E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D15E90E2-36C4-4002-B9FE-B75F8A21EB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15E90E2-36C4-4002-B9FE-B75F8A21EB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D15E90E2-36C4-4002-B9FE-B75F8A21EB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D15E90E2-36C4-4002-B9FE-B75F8A21EB17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
